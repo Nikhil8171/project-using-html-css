@@ -1,0 +1,97 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,600&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container_card{
+    width: 35%;
+    /* height: 40%; */
+    background-image: url(images/bg.png);
+    border-radius: 24px;
+    color: white;
+    padding: 0px 20px;
+     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+
+.header{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    padding: 0px 15px;
+    position: relative;
+ 
+}
+.logo{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+.logo h3 {
+    color: white;
+    font-size: 1.5em;
+}
+.logo-img{
+    width: 70px;
+}
+
+.chip-img{
+    width: 77px;
+}
+
+.content{
+    /* border: 2px solid white; */
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: .8em;
+    padding: 0px 14px;
+
+}
+.content p{
+    font-size: 1.5em;
+}
+
+.footr{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    position: relative;
+    padding: 10px 14px;
+}
+.para-p{
+    font-size: 2em;
+    position: absolute;
+    bottom: 0px;
+}
+
+.validation{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+.validation h2{
+    font-size: 1.2em;
+}
+
+@media  (min-width: 1000px) {
+    .container_card{
+        width: 40%;
+    }
+}
