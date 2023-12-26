@@ -17,7 +17,7 @@ body{
     background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) , url(images/header-image.png);
     background-size: cover;
     background-position: center;
-    padding: 10px 8%;
+    padding: 0.8rem 8%;
     position: relative;
     overflow: hidden;
 
@@ -27,7 +27,7 @@ body{
   justify-content: space-between;
   align-items: center;
   /* padding: 15px opx; */
-  margin: 15px;
+  margin: 1rem;
 
 }
 .logo_img{
@@ -49,14 +49,14 @@ button{
     border: 0px;
     outline: o;
     font-size: large;
-    font-weight: 12px;
+    font-weight: 0.6rem;
     padding: .3rem 1rem;
     border-radius: 4px;
 
 }
 
 .language_button{
-    border: 2px solid white;
+    border: .1rem solid white;
     background-color: transparent;
     align-items: center;
     display: flex;
@@ -65,7 +65,7 @@ button{
 }
 
 .language_button img{
-    width: 15px;
+    width: 1rem;
 }
 
 
@@ -76,14 +76,14 @@ button{
     gap: 2rem;
  width: 100%;
 font-weight: 400;
-font-size: 30px;
+font-size: 2rem;
 position: absolute;
 top: 50%;
 left: 50%;
  transform: translate(-50%, -50%);
  text-align: center;
- padding: 40px;
- margin-top: 50px;
+ padding: 2.5rem;
+ margin-top: 3.1rem;
 }
 .search{
     display: flex;
@@ -168,10 +168,28 @@ left: 50%;
     width: 80%;
 }
 
-@media screen and (min-width: 950)  {
-    .main_film{
-        display: flex;
-        flex-direction: column;
+@media  (min-width: 300px)  {
+    .logo_img{
+        width: 7.25rem;
+        height: 1.5rem;
+        
+    }
+    button{
+        background: red;
+        cursor: pointer;
+        color: white;
+        /* border: 0px; */
+        outline: o;
+        font-size: 0.6rem;
+        font-weight: 0.3rem;
+        padding: 0.3rem 0.9rem;
+        border-radius: 4px;
+        display: block;
+    
+    }
+    .content{
+        margin-top: 4rem;
+        font-size: 1.5rem;
     }
 }
 
